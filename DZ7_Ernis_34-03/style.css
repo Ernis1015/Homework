@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+}
+.hide  {
+    display: none;
+    width: 100px;
+}
+.answer{
+    display: none;
+}
+
+.show_answer{
+    display: block;
+}
+
+.text{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #0e169d solid 4px;
+    margin: 40px;
+    background-color: cornflowerblue;
+}
+.mystery{
+    width: 250px;
+    padding: 30px;
+    color: indigo;
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    color: black;
+
+}
